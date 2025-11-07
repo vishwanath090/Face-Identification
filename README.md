@@ -74,23 +74,28 @@ A **Streamlit web application** is included for interactive face identification.
 
 ---
 
-## 📂 Project Structure
+## 🧩 Applications
+- ✅ Identity verification  
+- 🕵️ Attendance systems  
+- 🔐 Personalized access control  
+- 🧑‍💼 Small-scale recognition and authentication systems  
 
-face-identification/
-│
-├── dataset/
-│ ├── train/
-│ │ ├── karthik/
-│ │ ├── vishwanath/
-│ │ ├── jafar/
-│ │ └── unknown/
-│ └── val/
-│
-├── model/
-│ ├── best_efficientnetb0_faceid.pth
-│ └── best_mtcnn_logreg.pkl
-│
-├── app.py # Streamlit deployment file
-├── train_efficientnet.py # Training script for EfficientNet-B0
-├── inference.py # Image testing / prediction script
-└── README.md
+---
+
+## 🚀 Deployment
+
+A **Streamlit web application** is included for interactive face identification.
+
+### Features:
+- 🖼️ Upload an image to classify the person  
+- 📊 Displays **original and predicted** images side-by-side  
+- 🎯 Shows **predicted class** and **confidence score**  
+- ⚡ Real-time inference using the trained EfficientNet-B0 model  
+
+### Run the App:
+```bash
+# Install dependencies
+pip install -r requirements.txt
+
+# Run the Streamlit app
+streamlit run app/app.py
