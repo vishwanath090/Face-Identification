@@ -1,10 +1,7 @@
 __pycache__/
-*.pth
-*.pkl
+models/
+*.h5
+*.keras
 *.pt
-*.zip
-*.log
-*.tmp
-*.ipynb_checkpoints/
-
-"facenet_artifacts/embedder_vggface2.pth" 
+*.onnx
+*.ckpt
