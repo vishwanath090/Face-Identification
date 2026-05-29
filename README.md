@@ -127,16 +127,4 @@ These notebooks can be used to explore training, evaluation, and data preparatio
 - For consistent results, use clear front-facing images.
 - The `augment_faces.py` script can be used to expand the training data.
 
-## Future Improvements
 
-Possible next steps include:
-
-- Removing hardcoded paths from the app
-- Adding a configuration file for model locations
-- Improving the training pipeline documentation
-- Adding example images and screenshots
-- Including a sample dataset layout
-
-## License
-
-Add a license if you want the project to be reusable by others.
